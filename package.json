@@ -1,0 +1,32 @@
+{
+  "name": "mvhaden",
+  "version": "1.0.0",
+  "description": "backend for personel portfolio and blog for devs",
+  "main": "app.js",
+  "scripts": {
+    "serve": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MohamedenVal/mvhaden-backend.git"
+  },
+  "keywords": [
+    "express",
+    "portfolio",
+    "crud",
+    "api"
+  ],
+  "author": "Mohameden Val Haden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohamedenVal/mvhaden-backend/issues"
+  },
+  "homepage": "https://github.com/MohamedenVal/mvhaden-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "nodemon": "^2.0.19"
+  }
+}
